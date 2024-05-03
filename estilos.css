@@ -1,0 +1,261 @@
+html, body, h1, h2, h3, h4, ol, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+}
+body{
+    background-color: rgb(250, 250, 206);
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+
+.logo{
+    height: 130px;
+    width: 130px;
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+}
+.titulo{
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10;
+    float: left;
+
+}
+
+
+
+.InicioSesion{
+    color: blue;
+    font-size: 25px;
+    margin: 30px;
+    font-weight: bold;
+    
+}
+.Galeria{
+    color: blue;
+    font-size: 25px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+
+
+.publicidad{
+    height: 600px;
+    width: 1540px;
+    
+}
+.container1{
+    max-width: 1900px;
+    margin: auto;
+    padding : 20px;
+}
+
+#container2{
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px;
+}
+.caja1{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.Sub-titulo{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Acerca{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: yellow;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: yellow;
+}
+.info2{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 100px;
+}
+.servicios {
+    font-size: 30px;
+    padding-left: 350px;
+}
+
+
+.imagenCorporativa{
+    height: 500px;
+    width: 500px;
+    padding-top: 80px;
+}
+
+
+footer{
+    background-color: burlywood;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.centrar{
+    padding-left: 400px;
+}
+
+.centrarFoto{
+    border-radius: 50%;
+}
+.centrarfoto{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* LOGIN */
+
+.contenedorIniciarSesion{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#contenedorIniciarSesion table{
+    background-color: white;
+    margin: auto;
+}
+
+#contenedorIniciarSesion table th{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.contenedorIniciarSesionP{
+    font-size: 70px;
+    color: #656565;
+}
+
+#contenedorIniciarSesion table td label{
+    font-size: 25px;
+}
+
+#contenedorIniciarSesion a{
+    color: #4285F4;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.camposForm{
+    font-size: 20px;
+    border-color:lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.EspaciosBlancos{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.boton{
+    font-size: 28px;
+    background-color: #1404f8;
+    color: #FFFFFF;
+
+}
+
+.text-center{
+    background-color: white;
+    padding-bottom: 30px;
+}
+.justify-content-center1{
+    background-color: white;
+    font-size: 30px;
+    padding-top: 40px;
+    
+    
+}
+
+
+
+
+
+
+
+/* GALERIA */
+
+.PLAN{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.tabla{
+    width: 1500px;
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.tabla1{
+    font-size: 30px;
+}
+.TamañoImagen{
+    width: 100%;
+    height: 300px;
+}
+.textoPlan{
+    padding-right: 80px;
+    font-size: 20px;
+}
+.Beneficios{
+    font-size: 20px;
+}
+.precioPlan{
+    font-size: 30px;
+}
+
+
+
+.botonPlan{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80px;
+}
+
+#AjustarFoto{
+    width: 500px;
+    height: 400px;
+}
